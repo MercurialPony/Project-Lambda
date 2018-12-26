@@ -1,0 +1,27 @@
+{
+	"forge_marker": 1,
+	"defaults":
+	{
+		"model": "lambda:charger",
+		"textures":
+		{
+			"side1": "lambda:blocks/charger_power_side1",
+			"side2": "lambda:blocks/charger_power_side2"
+		}
+	},
+	"variants":
+	{
+		"facing":
+		{
+			"north": {},
+			"east": { "y": 90 },
+			"south": { "y": 180 },
+			"west": { "y": 270 }
+		},
+		"empty":
+		{
+			"false": { "textures": { "front": "lambda:blocks/charger_power" }},
+			"true": { "textures": { "front": "lambda:blocks/charger_power_empty" }}
+		}
+	}
+}

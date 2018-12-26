@@ -1,0 +1,7 @@
+{
+	"parent": "item/handheld",
+	"textures":
+	{
+		"layer0": "lambda:items/weapon/weapon_crowbar"
+	}
+}

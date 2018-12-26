@@ -1,0 +1,622 @@
+{
+	"item.smallmedkit":
+	{
+		"subtitle": "lambda.subtitle.smallmedkit",
+		"sounds": [ "lambda:item/smallmedkit1" ]
+	},
+	"item.gunpickup":
+	{
+		"subtitle": "lambda.subtitle.gunpickup",
+		"sounds": [ "lambda:item/gunpickup2" ]
+	},
+	"item.medshot":
+	{
+		"subtitle": "lambda.subtitle.medshot",
+		"sounds": [ "lambda:item/medshot4" ]
+	},
+	"item.medcharge":
+	{
+		"subtitle": "lambda.subtitle.medcharge",
+		"sounds": [ "lambda:item/medcharge4" ]
+	},
+	"item.medshotno":
+	{
+		"subtitle": "lambda.subtitle.medshotno",
+		"sounds": [ "lambda:item/medshotno1" ]
+	},
+	"item.suitchargeok":
+	{
+		"subtitle": "lambda.subtitle.suitchargeok",
+		"sounds": [ "lambda:item/suitchargeok1" ]
+	},
+	"item.suitcharge":
+	{
+		"subtitle": "lambda.subtitle.suitcharge",
+		"sounds": [ "lambda:item/suitcharge1" ]
+	},
+	"item.suitchargeno":
+	{
+		"subtitle": "lambda.subtitle.suitchargeno",
+		"sounds": [ "lambda:item/suitchargeno1" ]
+	},
+	"denyselect":
+	{
+		"subtitle": "lambda.subtitle.weapon_denyselect",
+		"sounds": [ "lambda:wpn_denyselect" ]
+	},
+	"projectile.bullet.hit_body":
+	{
+		"subtitle": "lambda.subtitle.projectile.bullet.hit_body",
+		"sounds": [ "lambda:projectile/bullet/bullet_hit1", "lambda:projectile/bullet/bullet_hit2" ]
+	},
+	"projectile.bullet.ricochet":
+	{
+		"subtitle": "lambda.subtitle.projectile.bullet.ricochet",
+		"sounds": [ "lambda:projectile/bullet/ric1", "lambda:projectile/bullet/ric2", "lambda:projectile/bullet/ric3", "lambda:projectile/bullet/ric4", "lambda:projectile/bullet/ric5" ]
+	},
+	"projectile.bolt.hit":
+	{
+		"subtitle": "lambda.subtitle.projectile.bolt.hit",
+		"sounds": [ "lambda:projectile/bolt/xbow_hit1", "lambda:projectile/bolt/xbow_hit2" ]
+	},
+	"projectile.bolt.hit_body":
+	{
+		"subtitle": "lambda.subtitle.projectile.bolt.hit_body",
+		"sounds": [ "lambda:projectile/bolt/xbow_hitbod2" ]
+	},
+	"alien.headcrab.alert":
+	{
+		"subtitle": "lambda.subtitle.mob.headcrab.alert",
+		"sounds": [ "lambda:alien/headcrab/hc_alert1", "lambda:alien/headcrab/hc_alert2" ]
+	},
+	"alien.headcrab.attack":
+	{
+		"subtitle": "lambda.subtitle.mob.headcrab.attack",
+		"sounds": [ "lambda:alien/headcrab/hc_attack1", "lambda:alien/headcrab/hc_attack2", "lambda:alien/headcrab/hc_attack3" ]
+	},
+	"alien.headcrab.die":
+	{
+		"subtitle": "lambda.subtitle.mob.headcrab.die",
+		"sounds": [ "lambda:alien/headcrab/hc_die1", "lambda:alien/headcrab/hc_die2" ]
+	},
+	"alien.headcrab.idle":
+	{
+		"subtitle": "lambda.subtitle.mob.headcrab.idle",
+		"sounds": [ "lambda:alien/headcrab/hc_idle1", "lambda:alien/headcrab/hc_idle2", "lambda:alien/headcrab/hc_idle3", "lambda:alien/headcrab/hc_idle4", "lambda:alien/headcrab/hc_idle5" ]
+	},
+	"alien.headcrab.pain":
+	{
+		"subtitle": "lambda.subtitle.mob.headcrab.pain",
+		"sounds": [ "lambda:alien/headcrab/hc_pain1", "lambda:alien/headcrab/hc_pain2", "lambda:alien/headcrab/hc_pain3" ]
+	},
+	"alien.headcrab.bite":
+	{
+		"subtitle": "lambda.subtitle.mob.headcrab.bite",
+		"sounds": [ "lambda:alien/headcrab/hc_headbite" ]
+	},
+	"alien.zombie.miss":
+	{
+		"subtitle": "lambda.subtitle.mob.zombie.miss",
+		"sounds": [ "lambda:alien/zombie/claw_miss1", "lambda:alien/zombie/claw_miss2" ]
+	},
+	"alien.zombie.strike":
+	{
+		"subtitle": "lambda.subtitle.mob.zombie.strike",
+		"sounds": [ "lambda:alien/zombie/claw_strike1", "lambda:alien/zombie/claw_strike2", "lambda:alien/zombie/claw_strike3" ]
+	},
+	"alien.zombie.alert":
+	{
+		"subtitle": "lambda.subtitle.mob.zombie.alert",
+		"sounds": [ "lambda:alien/zombie/zo_alert10", "lambda:alien/zombie/zo_alert20", "lambda:alien/zombie/zo_alert30" ]
+	},
+	"alien.zombie.attack":
+	{
+		"subtitle": "lambda.subtitle.mob.zombie.attack",
+		"sounds": [ "lambda:alien/zombie/zo_attack1", "lambda:alien/zombie/zo_attack2" ]
+	},
+	"alien.zombie.idle":
+	{
+		"subtitle": "lambda.subtitle.mob.zombie.idle",
+		"sounds": [ "lambda:alien/zombie/zo_idle1", "lambda:alien/zombie/zo_idle2", "lambda:alien/zombie/zo_idle3", "lambda:alien/zombie/zo_idle4" ]
+	},
+	"alien.zombie.pain":
+	{
+		"subtitle": "lambda.subtitle.mob.zombie.pain",
+		"sounds": [ "lambda:alien/zombie/zo_pain1", "lambda:alien/zombie/zo_pain2" ]
+	},
+	"alien.vortigaunt.alert":
+	{
+		"subtitle": "lambda.subtitle.mob.vortigaunt.alert",
+		"sounds": [ "lambda:alien/vortigaunt/slv_alert1", "lambda:alien/vortigaunt/slv_alert3", "lambda:alien/vortigaunt/slv_alert4" ]
+	},
+	"alien.vortigaunt.die":
+	{
+		"subtitle": "lambda.subtitle.mob.vortigaunt.die",
+		"sounds": [ "lambda:alien/vortigaunt/slv_die1", "lambda:alien/vortigaunt/slv_die2" ]
+	},
+	"alien.vortigaunt.pain":
+	{
+		"subtitle": "lambda.subtitle.mob.vortigaunt.pain",
+		"sounds": [ "lambda:alien/vortigaunt/slv_pain1", "lambda:alien/vortigaunt/slv_pain2" ]
+	},
+	"alien.vortigaunt.word":
+	{
+		"subtitle": "lambda.subtitle.mob.vortigaunt.word",
+		"sounds": [ "lambda:alien/vortigaunt/slv_word1", "lambda:alien/vortigaunt/slv_word2", "lambda:alien/vortigaunt/slv_word3", "lambda:alien/vortigaunt/slv_word4", "lambda:alien/vortigaunt/slv_word5", "lambda:alien/vortigaunt/slv_word6", "lambda:alien/vortigaunt/slv_word7", "lambda:alien/vortigaunt/slv_word8" ]
+	},
+	"alien.vortigaunt.shoot":
+	{
+		"subtitle": "lambda.subtitle.mob.vortigaunt.shoot",
+		"sounds": [ "lambda:hw_shoot1", "lambda:hw_shoot2", "lambda:hw_shoot3" ]
+	},
+	"zap":
+	{
+		"subtitle": "lambda.subtitle.zap",
+		"sounds": [ "lambda:zap4" ]
+	},
+	"alien.houndeye.alert":
+	{
+		"subtitle": "lambda.subtitle.mob.houndeye.alert",
+		"sounds": [ "lambda:alien/houndeye/he_alert1", "lambda:alien/houndeye/he_alert2", "lambda:alien/houndeye/he_alert3" ]
+	},
+	"alien.houndeye.attack":
+	{
+		"subtitle": "lambda.subtitle.mob.houndeye.attack",
+		"sounds": [ "lambda:alien/houndeye/he_attack1", "lambda:alien/houndeye/he_attack2", "lambda:alien/houndeye/he_attack3" ]
+	},
+	"alien.houndeye.blast":
+	{
+		"subtitle": "lambda.subtitle.mob.houndeye.blast",
+		"sounds": [ "lambda:alien/houndeye/he_blast1", "lambda:alien/houndeye/he_blast2", "lambda:alien/houndeye/he_blast3" ]
+	},
+	"alien.houndeye.die":
+	{
+		"subtitle": "lambda.subtitle.mob.houndeye.die",
+		"sounds": [ "lambda:alien/houndeye/he_die1", "lambda:alien/houndeye/he_die2", "lambda:alien/houndeye/he_die3" ]
+	},
+	"alien.houndeye.hunt":
+	{
+		"subtitle": "lambda.subtitle.mob.houndeye.hunt",
+		"sounds": [ "lambda:alien/houndeye/he_hunt1", "lambda:alien/houndeye/he_hunt2", "lambda:alien/houndeye/he_hunt3", "lambda:alien/houndeye/he_hunt4" ]
+	},
+	"alien.houndeye.idle":
+	{
+		"subtitle": "lambda.subtitle.mob.houndeye.idle",
+		"sounds": [ "lambda:alien/houndeye/he_idle1", "lambda:alien/houndeye/he_idle2", "lambda:alien/houndeye/he_idle3", "lambda:alien/houndeye/he_idle4" ]
+	},
+	"alien.houndeye.pain":
+	{
+		"subtitle": "lambda.subtitle.mob.houndeye.pain",
+		"sounds": [ "lambda:alien/houndeye/he_pain1", "lambda:alien/houndeye/he_pain2", "lambda:alien/houndeye/he_pain3", "lambda:alien/houndeye/he_pain4", "lambda:alien/houndeye/he_pain5" ]
+	},
+	"alien.barnacle.alert":
+	{
+		"subtitle": "lambda.subtitle.mob.barnacle.alert",
+		"sounds": [ "lambda:alien/barnacle/bcl_alert2" ]
+	},
+	"alien.barnacle.bite":
+	{
+		"subtitle": "lambda.subtitle.mob.barnacle.bite",
+		"sounds": [ "lambda:alien/barnacle/bcl_bite3" ]
+	},
+	"alien.barnacle.chew":
+	{
+		"subtitle": "lambda.subtitle.mob.barnacle.chew",
+		"sounds": [ "lambda:alien/barnacle/bcl_chew1", "lambda:alien/barnacle/bcl_chew2", "lambda:alien/barnacle/bcl_chew3" ]
+	},
+	"alien.barnacle.die":
+	{
+		"subtitle": "lambda.subtitle.mob.barnacle.die",
+		"sounds": [ "lambda:alien/barnacle/bcl_die1", "lambda:alien/barnacle/bcl_die3" ]
+	},
+	"alien.barnacle.tongue":
+	{
+		"subtitle": "lambda.subtitle.mob.barnacle.tongue",
+		"sounds": [ "lambda:alien/barnacle/bcl_tongue1" ]
+	},
+	"alien.hornet.buzz":
+	{
+		"subtitle": "lambda.subtitle.mob.hornet.buzz",
+		"sounds": [ "lambda:alien/hornet/ag_buzz1", "lambda:alien/hornet/ag_buzz2", "lambda:alien/hornet/ag_buzz3" ]
+	},
+	"alien.hornet.hit":
+	{
+		"subtitle": "lambda.subtitle.mob.hornet.hit",
+		"sounds": [ "lambda:alien/hornet/ag_hornethit1", "lambda:alien/hornet/ag_hornethit2", "lambda:alien/hornet/ag_hornethit3" ]
+	},
+	"alien.snark.deploy":
+	{
+		"subtitle": "lambda.subtitle.mob.snark.deploy",
+		"sounds": [ "lambda:alien/snark/sqk_deploy1" ]
+	},
+	"alien.snark.hunt":
+	{
+		"subtitle": "lambda.subtitle.mob.snark.hunt",
+		"sounds": [ "lambda:alien/snark/sqk_hunt1", "lambda:alien/snark/sqk_hunt2", "lambda:alien/snark/sqk_hunt3" ]
+	},
+	"alien.snark.die":
+	{
+		"subtitle": "lambda.subtitle.mob.snark.die",
+		"sounds": [ "lambda:alien/snark/sqk_die1" ]
+	},
+	"alien.snark.blast":
+	{
+		"subtitle": "lambda.subtitle.mob.snark.blast",
+		"sounds": [ "lambda:alien/snark/sqk_blast1" ]
+	},
+	"sentry.deploy":
+	{
+		"subtitle": "lambda.subtitle.mob.sentry.deploy",
+		"sounds": [ "lambda:tu_deploy" ]
+	},
+	"sentry.ping":
+	{
+		"subtitle": "lambda.subtitle.mob.sentry.ping",
+		"sounds": [ "lambda:tu_ping" ]
+	},
+	"sentry.die":
+	{
+		"subtitle": "lambda.subtitle.mob.sentry.die",
+		"sounds": [ "lambda:tu_die", "lambda:tu_die2", "lambda:tu_die3" ]
+	},
+	"weapon.glock.load":
+	{
+		"subtitle": "lambda.subtitle.weapon.glock.load",
+		"sounds": [ "lambda:item/weapon/9mmclip1" ]
+	},
+	"weapon.glock.unload":
+	{
+		"subtitle": "lambda.subtitle.weapon.glock.unload",
+		"sounds": [ "lambda:item/weapon/9mmclip2" ]
+	},
+	"weapon.glock.shot":
+	{
+		"subtitle": "lambda.subtitle.weapon.glock.shot",
+		"sounds": [ "lambda:item/weapon/pl_gun3" ]
+	},
+	"weapon.mp.load":
+	{
+		"subtitle": "lambda.subtitle.weapon.mp.load",
+		"sounds": [ "lambda:item/weapon/clipinsert1" ]
+	},
+	"weapon.mp.unload":
+	{
+		"subtitle": "lambda.subtitle.weapon.mp.unload",
+		"sounds": [ "lambda:item/weapon/cliprelease1" ]
+	},
+	"weapon.mp.shot":
+	{
+		"subtitle": "lambda.subtitle.weapon.mp.shot",
+		"sounds": [ "lambda:item/weapon/hks1", "lambda:item/weapon/hks2", "lambda:item/weapon/hks3" ]
+	},
+	"weapon.mp.grenade":
+	{
+		"subtitle": "lambda.subtitle.weapon.mp.grenade",
+		"sounds": [ "lambda:item/weapon/glauncher", "lambda:item/weapon/glauncher2" ]
+	},
+	"weapon.spas.load":
+	{
+		"subtitle": "lambda.subtitle.weapon.spas.load",
+		"sounds": [ "lambda:item/weapon/reload1", "lambda:item/weapon/reload3" ]
+	},
+	"weapon.spas.shot.single_barrel":
+	{
+		"subtitle": "lambda.subtitle.weapon.spas.shot.single_barrel",
+		"sounds": [ "lambda:item/weapon/sbarrel1" ]
+	},
+	"weapon.spas.shot.double_barrel":
+	{
+		"subtitle": "lambda.subtitle.weapon.spas.shot.double_barrel",
+		"sounds": [ "lambda:item/weapon/dbarrel1" ]
+	},
+	"weapon.spas.cock":
+	{
+		"subtitle": "lambda.subtitle.weapon.spas.cock",
+		"sounds": [ "lambda:item/weapon/scock1" ]
+	},
+	"weapon.spas.shell":
+	{
+		"subtitle": "lambda.subtitle.weapon.spas.shell",
+		"sounds": [ "lambda:item/weapon/sshell1", "lambda:item/weapon/sshell2", "lambda:item/weapon/sshell3" ]
+	},
+	"weapon.python.load":
+	{
+		"subtitle": "lambda.subtitle.weapon.python.load",
+		"sounds": [ "lambda:item/weapon/357_reload1" ]
+	},
+	"weapon.python.shot":
+	{
+		"subtitle": "lambda.subtitle.weapon.python.shot",
+		"sounds": [ "lambda:item/weapon/357_shot1", "lambda:item/weapon/357_shot2" ]
+	},
+	"weapon.python.cock":
+	{
+		"subtitle": "lambda.subtitle.weapon.python.cock",
+		"sounds": [ "lambda:item/weapon/357_cock1" ]
+	},
+	"weapon.crossbow.load":
+	{
+		"subtitle": "lambda.subtitle.weapon.crossbow.load",
+		"sounds": [ "lambda:item/weapon/xbow_reload1" ]
+	},
+	"weapon.crossbow.shot":
+	{
+		"subtitle": "lambda.subtitle.weapon.crossbow.shot",
+		"sounds": [ "lambda:item/weapon/xbow_fire1" ]
+	},
+	"weapon.rpg.shot":
+	{
+		"subtitle": "lambda.subtitle.weapon.rpg.shot",
+		"sounds": [ "lambda:item/weapon/rocketfire1" ]
+	},
+	"weapon.rpg.rocket":
+	{
+		"subtitle": "lambda.subtitle.weapon.rpg.rocket",
+		"sounds": [ "lambda:item/weapon/rocket1" ]
+	},
+	"weapon.tau.shot":
+	{
+		"subtitle": "lambda.subtitle.weapon.tau.shot",
+		"sounds": [ "lambda:item/weapon/gauss2" ]
+	},
+	"weapon.tau.charge":
+	{
+		"subtitle": "lambda.subtitle.weapon.tau.charge",
+		"sounds": [ "lambda:item/weapon/pulsemachine" ]
+	},
+	"weapon.tau.discharge":
+	{
+		"subtitle": "lambda.subtitle.weapon.tau.discharge",
+		"sounds": [ "lambda:item/weapon/electro4", "lambda:item/weapon/electro5", "lambda:item/weapon/electro6" ]
+	},
+	"weapon.gluon.charge":
+	{
+		"subtitle": "lambda.subtitle.weapon.gluon.charge",
+		"sounds": [ "lambda:item/weapon/egon_windup2" ]
+	},
+	"weapon.gluon.beam":
+	{
+		"subtitle": "lambda.subtitle.weapon.gluon.beam",
+		"sounds": [ "lambda:item/weapon/egon_run3" ]
+	},
+	"weapon.gluon.discharge":
+	{
+		"subtitle": "lambda.subtitle.weapon.gluon.discharge",
+		"sounds": [ "lambda:item/weapon/egon_off1" ]
+	},
+	"weapon.hivehand.shot":
+	{
+		"subtitle": "lambda.subtitle.weapon.hivehand.shot",
+		"sounds": [ "lambda:alien/alien_grunt/ag_fire1", "lambda:alien/alien_grunt/ag_fire2", "lambda:alien/alien_grunt/ag_fire3" ]
+	},
+	"weapon.grenade.hit":
+	{
+		"subtitle": "lambda.subtitle.weapon.grenade.hit",
+		"sounds": [ "lambda:item/weapon/grenade_hit1", "lambda:item/weapon/grenade_hit2", "lambda:item/weapon/grenade_hit3" ]
+	},
+	"weapon.tripmine.deploy":
+	{
+		"subtitle": "lambda.subtitle.weapon.tripmine.deploy",
+		"sounds": [ "lambda:item/weapon/mine_deploy"]
+	},
+	"weapon.tripmine.charge":
+	{
+		"subtitle": "lambda.subtitle.weapon.tripmine.charge",
+		"sounds": [ "lambda:item/weapon/mine_charge"]
+	},
+	"weapon.tripmine.activate":
+	{
+		"subtitle": "lambda.subtitle.weapon.tripmine.activate",
+		"sounds": [ "lambda:item/weapon/mine_activate"]
+	},
+	"weapon.dryfire":
+	{
+		"subtitle": "lambda.subtitle.weapon.dryfire",
+		"sounds": [ "lambda:item/weapon/dryfire1" ]
+	},
+	"suit.hazard.bell":
+	{
+		"subtitle": "lambda.subtitle.suit.hazard.bell",
+		"sounds": [ "lambda:suit/hazard/bell" ]
+	},
+	"suit.hazard.logon":
+	{
+		"subtitle": "lambda.subtitle.suit.hazard.logon",
+		"sounds": [ "lambda:suit/hazard/hev_logon" ]
+	},
+	"suit.hazard.powermove":
+	{
+		"subtitle": "lambda.subtitle.suit.hazard.powermove",
+		"sounds": [ "lambda:suit/hazard/powermove_on" ]
+	},
+	"suit.hazard.powerarmor":
+	{
+		"subtitle": "lambda.subtitle.suit.hazard.powerarmor",
+		"sounds": [ "lambda:suit/hazard/powerarmor_on" ]
+	},
+	"suit.hazard.atmospherics":
+	{
+		"subtitle": "lambda.subtitle.suit.hazard.atmospherics",
+		"sounds": [ "lambda:suit/hazard/atmospherics_on" ]
+	},
+	"suit.hazard.vitalsigns":
+	{
+		"subtitle": "lambda.subtitle.suit.hazard.vitalsigns",
+		"sounds": [ "lambda:suit/hazard/vitalsigns_on" ]
+	},
+	"suit.hazard.automedic":
+	{
+		"subtitle": "lambda.subtitle.suit.hazard.automedic",
+		"sounds": [ "lambda:suit/hazard/automedic_on" ]
+	},
+	"suit.hazard.weaponselect":
+	{
+		"subtitle": "lambda.subtitle.suit.hazard.weaponselect",
+		"sounds": [ "lambda:suit/hazard/weaponselect_on" ]
+	},
+	"suit.hazard.munitionview":
+	{
+		"subtitle": "lambda.subtitle.suit.hazard.munitionview",
+		"sounds": [ "lambda:suit/hazard/munitionview_on" ]
+	},
+	"suit.hazard.communications":
+	{
+		"subtitle": "lambda.subtitle.suit.hazard.communications",
+		"sounds": [ "lambda:suit/hazard/communications_on" ]
+	},
+	"suit.hazard.safeday":
+	{
+		"subtitle": "lambda.subtitle.suit.hazard.safeday",
+		"sounds": [ "lambda:suit/hazard/safe_day" ]
+	},
+	"suit.hazard.beep":
+	{
+		"subtitle": "lambda.subtitle.suit.hazard.beep",
+		"sounds": [ "lambda:suit/hazard/beep" ]
+	},
+	"suit.hazard.health_dropping":
+	{
+		"subtitle": "lambda.subtitle.suit.hazard.health_dropping",
+		"sounds": [ "lambda:suit/hazard/health_dropping", "lambda:suit/hazard/health_dropping2" ]
+	},
+	"suit.hazard.health_critical":
+	{
+		"subtitle": "lambda.subtitle.suit.hazard.health_critical",
+		"sounds": [ "lambda:suit/hazard/health_critical" ]
+	},
+	"suit.hazard.evacuate":
+	{
+		"subtitle": "lambda.subtitle.suit.hazard.evacuate",
+		"sounds": [ "lambda:suit/hazard/evacuate_area" ]
+	},
+	"suit.hazard.immediately":
+	{
+		"subtitle": "lambda.subtitle.suit.hazard.immediately",
+		"sounds": [ "lambda:suit/hazard/immediately" ]
+	},
+	"suit.hazard.near_death":
+	{
+		"subtitle": "lambda.subtitle.suit.hazard.near_death",
+		"sounds": [ "lambda:suit/hazard/near_death" ]
+	},
+	"suit.hazard.seek_medic":
+	{
+		"subtitle": "lambda.subtitle.suit.hazard.seek_medic",
+		"sounds": [ "lambda:suit/hazard/seek_medic" ]
+	},
+	"suit.hazard.warning":
+	{
+		"subtitle": "lambda.subtitle.suit.hazard.warning",
+		"sounds": [ "lambda:suit/hazard/warning" ]
+	},
+	"suit.hazard.shock":
+	{
+		"subtitle": "lambda.subtitle.suit.hazard.shock",
+		"sounds": [ "lambda:suit/hazard/shock_damage" ]
+	},
+	"suit.hazard.heat":
+	{
+		"subtitle": "lambda.subtitle.suit.hazard.heat",
+		"sounds": [ "lambda:suit/hazard/heat_damage" ]
+	},
+	"suit.hazard.boop":
+	{
+		"subtitle": "lambda.subtitle.suit.hazard.boop",
+		"sounds": [ "lambda:suit/hazard/boop" ]
+	},
+	"suit.hazard.toxins":
+	{
+		"subtitle": "lambda.subtitle.suit.hazard.toxins",
+		"sounds": [ "lambda:suit/hazard/blood_toxins" ]
+	},
+	"suit.hazard.minor_lacerations":
+	{
+		"subtitle": "lambda.subtitle.suit.hazard.minor_lacerations",
+		"sounds": [ "lambda:suit/hazard/minor_lacerations" ]
+	},
+	"suit.hazard.major_lacerations":
+	{
+		"subtitle": "lambda.subtitle.suit.hazard.major_lacerations",
+		"sounds": [ "lambda:suit/hazard/safe_day" ]
+	},
+	"suit.hazard.minor_fracture":
+	{
+		"subtitle": "lambda.subtitle.suit.hazard.minor_fracture",
+		"sounds": [ "lambda:suit/hazard/minor_fracture" ]
+	},
+	"suit.hazard.major_fracture":
+	{
+		"subtitle": "lambda.subtitle.suit.hazard.major_fracture",
+		"sounds": [ "lambda:suit/hazard/major_fracture" ]
+	},
+	"suit.hazard.blood_loss":
+	{
+		"subtitle": "lambda.subtitle.suit.hazard.blood_loss",
+		"sounds": [ "lambda:suit/hazard/blood_loss" ]
+	},
+	"suit.hazard.internal_bleeding":
+	{
+		"subtitle": "lambda.subtitle.suit.hazard.internal_bleeding",
+		"sounds": [ "lambda:suit/hazard/internal_bleeding" ]
+	},
+	"suit.hazard.flatline":
+	{
+		"subtitle": "lambda.subtitle.suit.hazard.flatline",
+		"sounds": [ "lambda:suit/hazard/flatline" ]
+	},
+	"suit.hazard.hiss":
+	{
+		"subtitle": "lambda.subtitle.suit.hazard.hiss",
+		"sounds": [ "lambda:suit/hazard/hiss" ]
+	},
+	"suit.hazard.morphine":
+	{
+		"subtitle": "lambda.subtitle.suit.hazard.morphine",
+		"sounds": [ "lambda:suit/hazard/morphine_shot" ]
+	},
+	"suit.hazard.blip":
+	{
+		"subtitle": "lambda.subtitle.suit.hazard.blip",
+		"sounds": [ "lambda:suit/hazard/blip" ]
+	},
+	"suit.hazard.radiation":
+	{
+		"subtitle": "lambda.subtitle.suit.hazard.radiation",
+		"sounds": [ "lambda:suit/hazard/radiation_detected" ]
+	},
+	"suit.hazard.chemical":
+	{
+		"subtitle": "lambda.subtitle.suit.hazard.chemical",
+		"sounds": [ "lambda:suit/hazard/chemical_detected" ]
+	},
+	"suit.hazard.biohazard":
+	{
+		"subtitle": "lambda.subtitle.suit.hazard.biohazard",
+		"sounds": [ "lambda:suit/hazard/biohazard_detected" ]
+	},
+	"suit.hazard.fuzz":
+	{
+		"subtitle": "lambda.subtitle.suit.hazard.fuzz",
+		"sounds": [ "lambda:suit/hazard/fuzz" ]
+	},
+	"suit.hazard.power_restored":
+	{
+		"subtitle": "lambda.subtitle.suit.hazard.power_restored",
+		"sounds": [ "lambda:suit/hazard/power_restored" ]
+	},
+	"suit.hazard.percent":
+	{
+		"subtitle": "lambda.subtitle.suit.hazard.percent",
+		"sounds": [ "lambda:suit/hazard/percent" ]
+	},
+	"suit.hazard.power_level":
+	{
+		"subtitle": "lambda.subtitle.suit.hazard.power_level",
+		"sounds": [ "lambda:suit/hazard/power_level_is" ]
+	},
+	"suit.hazard.ammo_depleted":
+	{
+		"subtitle": "lambda.subtitle.suit.hazard.ammo_depleted",
+		"sounds": [ "lambda:suit/hazard/ammo_depleted" ]
+	}
+}

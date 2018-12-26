@@ -1,0 +1,7 @@
+{
+	"parent": "lambda:item/weapon/weapon_handheld",
+	"textures":
+	{
+		"layer0": "lambda:items/weapon/weapon_hivehand"
+	}
+}

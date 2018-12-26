@@ -1,0 +1,8 @@
+{
+	"parent": "item/generated",
+	"textures":
+	{
+		"layer0": "lambda:items/spawner/spawner_egg1",
+		"layer1": "lambda:items/spawner/spawner_egg1_overlay"
+	}
+}

@@ -1,0 +1,26 @@
+{
+	"forge_marker": 1,
+	"defaults":
+	{
+		"model": "lambda:tripmine",
+		"textures":
+		{
+			"front": "lambda:blocks/tripmine_front",
+			"side1": "lambda:blocks/tripmine_side1",
+			"side2": "lambda:blocks/tripmine_side2",
+			"side3": "lambda:blocks/tripmine_side3"
+		}
+	},
+	"variants":
+	{
+		"facing":
+		{
+			"north": {},
+			"east": { "y": 90 },
+			"south": { "y": 180 },
+			"west": { "y": 270 },
+			"up": { "x" : 270 },
+			"down": { "x" : 90}
+		}
+	}
+}

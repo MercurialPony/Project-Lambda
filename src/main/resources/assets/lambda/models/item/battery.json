@@ -1,0 +1,13 @@
+{
+
+	"parent": "item/generated",
+
+	"textures":
+
+	{
+
+		"layer0": "lambda:items/battery"
+
+	}
+
+}
