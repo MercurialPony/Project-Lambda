@@ -5,4 +5,4 @@ The Source code for Project-Lambda, an ambitious project aiming to re-create the
 
 ## Links
 CurseForge: https://minecraft.curseforge.com/projects/project-lambda  
-Minecraft Forum:
+Minecraft Forum: https://www.minecraftforum.net/forums/mapping-and-modding-java-edition/minecraft-mods/2940643-project-lambda-half-life-in-minecraft
