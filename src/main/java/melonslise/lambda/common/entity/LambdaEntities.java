@@ -26,26 +26,26 @@ public class LambdaEntities
 	private static int id = 0;
 
 	public static EntityEntry
-	medkit = createEntry(CollectibleMedkit.class, LambdaUtilities.prefixLambda("medkit"), 64, 20, false),
-	battery = createEntry(CollectibleBattery.class, LambdaUtilities.prefixLambda("battery"), 64, 20, false),
+	medkit = createEntry(CollectibleMedkit.class, "medkit", 64, 20, false),
+	battery = createEntry(CollectibleBattery.class, "battery", 64, 20, false),
 
-	bullet = createEntry(EntityBullet.class, LambdaUtilities.prefixLambda("bullet"), 80, 20, true),
-	bolt = createEntry(EntityBolt.class, LambdaUtilities.prefixLambda("bolt"), 80, 20, true),
+	bullet = createEntry(EntityBullet.class, "bullet", 80, 20, true),
+	bolt = createEntry(EntityBolt.class, "bolt", 80, 20, true),
 
-	headcrab = createEntry(EntityHeadcrab.class, LambdaUtilities.prefixLambda("headcrab"), 80, 3, true, 0xffdd77, 0xffdd77),
-	zombie = createEntry(EntityHeadcrabZombie.class, LambdaUtilities.prefixLambda("headcrab_zombie"), 80, 3, true, 0xffe2dd, 0xe26961),
-	vortigaunt = createEntry(EntityVortigaunt.class, LambdaUtilities.prefixLambda("vortigaunt"), 80, 3, true, 0x724735, 0x4df253),
-	houndeye = createEntry(EntityHoundeye.class, LambdaUtilities.prefixLambda("houndeye"), 80, 3, true, 0xffe16b, 0x3fcfff),
-	barnacle = createEntry(EntityBarnacle.class, LambdaUtilities.prefixLambda("barnacle"), 80, 20, false, 0x990f0f, 0xed4e4e),
-	hornet = createEntry(EntityHornet.class, LambdaUtilities.prefixLambda("hornet"), 80, 3, true),
-	snark = createEntry(EntitySnark.class, LambdaUtilities.prefixLambda("snark"), 80, 3, true),
+	headcrab = createEntry(EntityHeadcrab.class, "headcrab", 80, 3, true, 0xffdd77, 0xffdd77),
+	zombie = createEntry(EntityHeadcrabZombie.class, "headcrab_zombie", 80, 3, true, 0xffe2dd, 0xe26961),
+	vortigaunt = createEntry(EntityVortigaunt.class, "vortigaunt", 80, 3, true, 0x724735, 0x4df253),
+	houndeye = createEntry(EntityHoundeye.class, "houndeye", 80, 3, true, 0xffe16b, 0x3fcfff),
+	barnacle = createEntry(EntityBarnacle.class, "barnacle", 80, 20, false, 0x990f0f, 0xed4e4e),
+	hornet = createEntry(EntityHornet.class, "hornet", 80, 3, true),
+	snark = createEntry(EntitySnark.class, "snark", 80, 3, true),
 
-	impact_grenade = createEntry(EntityImpactGrenade.class, LambdaUtilities.prefixLambda("impact_grenade"), 64, 20, true),
-	rocket = createEntry(EntityRocket.class, LambdaUtilities.prefixLambda("rocket"), 80, 3, true),
-	grenade = createEntry(EntityGrenade.class, LambdaUtilities.prefixLambda("grenade"), 64, 20, true),
-	satchel_charge = createEntry(EntitySatchelCharge.class, LambdaUtilities.prefixLambda("satchel_charge"), 64, 20, true),
+	impact_grenade = createEntry(EntityImpactGrenade.class, "impact_grenade", 64, 20, true),
+	rocket = createEntry(EntityRocket.class, "rocket", 80, 3, true),
+	grenade = createEntry(EntityGrenade.class, "grenade", 64, 20, true),
+	satchel_charge = createEntry(EntitySatchelCharge.class, "satchel_charge", 64, 20, true),
 
-	sentry = createEntry(EntitySentry.class, LambdaUtilities.prefixLambda("sentry"), 64, 10, true);
+	sentry = createEntry(EntitySentry.class, "sentry", 64, 10, true);
 
 	private LambdaEntities() {};
 
@@ -75,11 +75,11 @@ public class LambdaEntities
 	// TODO Change tracker? and add factory
 	private static EntityEntry createEntry(Class c, String name, int range, int frequency, boolean updates)
 	{
-		return EntityEntryBuilder.create().id(LambdaUtilities.createLambdaDomain(name), ++id).name(name).entity(c).tracker(range, frequency, updates).build();
+		return EntityEntryBuilder.create().id(LambdaUtilities.createLambdaDomain(name), ++id).name(LambdaUtilities.prefixLambda(name)).entity(c).tracker(range, frequency, updates).build();
 	}
 
 	private static EntityEntry createEntry(Class c, String name, int range, int frequency, boolean updates, int color1, int color2)
 	{
-		return EntityEntryBuilder.create().id(LambdaUtilities.createLambdaDomain(name), ++id).name(name).entity(c).tracker(range, frequency, updates).egg(color1, color2).build();
+		return EntityEntryBuilder.create().id(LambdaUtilities.createLambdaDomain(name), ++id).name(LambdaUtilities.prefixLambda(name)).entity(c).tracker(range, frequency, updates).egg(color1, color2).build();
 	}
 }

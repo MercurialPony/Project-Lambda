@@ -14,7 +14,7 @@ import net.minecraftforge.fml.common.event.FMLPreInitializationEvent;
 @Mod(modid = LambdaCore.ID, name = LambdaCore.NAME, version = LambdaCore.VERSION, acceptedMinecraftVersions = LambdaCore.GAMEVERSIONS)
 public class LambdaCore
 {
-	public static final String ID = "lambda", NAME = "Project Lambda", VERSION = "0.0.1", GAMEVERSIONS = "1.12.2";
+	public static final String ID = "lambda", NAME = "Project Lambda", VERSION = "0.0.2", GAMEVERSIONS = "1.12.2";
 
 	@SidedProxy(modId = ID, clientSide = "melonslise.lambda.client.proxy.ClientProxy", serverSide = "melonslise.lambda.server.proxy.ServerProxy")
 	public static ACommonProxy proxy;

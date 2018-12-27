@@ -9,7 +9,7 @@ public class BlockNamed extends Block
 	public BlockNamed(String name, Material material)
 	{
 		super(material);
-		this.setRegistryName(LambdaUtilities.createLambdaDomain(name));
+		this.setRegistryName(name);
 		this.setUnlocalizedName(LambdaUtilities.prefixLambda(name));
 	}
 }

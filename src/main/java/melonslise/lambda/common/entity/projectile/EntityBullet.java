@@ -16,6 +16,7 @@ import net.minecraft.world.World;
 // TODO Not affected by other stuff like explosions/etc/fire
 // TODO Configurable thickness
 // TODO Bullet type, info
+// TODO Dies if 0 motion?
 public class EntityBullet extends AEntityProjectile
 {
 	protected float damage = 2F;

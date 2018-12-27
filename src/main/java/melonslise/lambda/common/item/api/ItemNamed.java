@@ -7,7 +7,7 @@ public class ItemNamed extends Item
 {
 	public ItemNamed(String name)
 	{
-		this.setRegistryName(LambdaUtilities.createLambdaDomain(name));
+		this.setRegistryName(name);
 		this.setUnlocalizedName(LambdaUtilities.prefixLambda(name));
 	}
 }
